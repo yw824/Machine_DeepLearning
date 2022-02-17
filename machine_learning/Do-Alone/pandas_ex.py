@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 data = {
     'year': [2016, 2017, 2018],
@@ -7,3 +8,7 @@ data = {
 }
 
 df = pd.DataFrame(data)
+
+lista = [1 , 2 , 3 , 4]
+npdata = np.array(lista)
+print(npdata.shape)
